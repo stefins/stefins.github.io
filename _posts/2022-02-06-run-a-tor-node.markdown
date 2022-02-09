@@ -29,8 +29,8 @@ ContactInfo mail@example.com # Write your e-mail and be aware it will be publish
 ORPort      443          # You might use a different port, should you want to
 ExitRelay   0               
 SocksPort   0
-RelayBandwidthRate 5 MB  # Throttle traffic to 100KB/s (800Kbps)
-RelayBandwidthBurst 5 MB
+RelayBandwidthRate 100 KBytes  # Throttle traffic to 100KB/s (800Kbps)
+RelayBandwidthBurst 200 KBytes # But allow bursts up to 200KB (1600Kb)
 ```
 
 6. Restart the tor service by running <br/>`systemctl restart tor@default`
@@ -46,4 +46,8 @@ $ apt-get install nyx
 $ pacman -S nyx
 ```
 
-NOTE: It'll take 2-3 days to build the traffic
+![nyx ui](/assets/nyx-tor.png)
+
+More info 
+
+[lifecycle-of-a-new-relay](https://blog.torproject.org/lifecycle-of-a-new-relay/)
