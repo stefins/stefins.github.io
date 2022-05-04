@@ -1,12 +1,9 @@
-title: Stefin On It!
+title: stefins
 email: stefin2016@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  This is my personal blog
+description: This is my personal blog
 baseurl: "/"
 url: "https://stefins.github.io" 
 twitter_username: stef1ns
 github_username:  stefins
 
 theme: minima
-plugins:
-  - jekyll-feed
