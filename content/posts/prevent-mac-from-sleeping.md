@@ -1,8 +1,8 @@
----
-layout: post
-title:  "Prevent Mac from sleeping even with closed lid."
-date:   2022-05-25
----
++++
+title = "Prevent Mac from sleeping even with closed lid."
+date = "2022-05-25"
+menu = "main"
++++
 
 In this tutorial I'll show you how to prevent your Mac from sleeping 
 without using any external tools

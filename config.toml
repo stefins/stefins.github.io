@@ -1,0 +1,35 @@
+baseURL = "https://stefins.github.io"
+languageCode = "en-us"
+title = "Stefin's Blog"
+theme = "yinyang"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    guessSyntax = true
+    noClasses = true
+    style = "bw"
+    tabWidth = 2
+
+[author]
+name = "Stefin"
+homepage = "https://stefins.github.io"
+
+[params]
+mainSections = ["posts"]
+headTitle = "STEFINS"
+description = "Random thoughts."
+
+[[params.socials]]
+name = "About Me"
+link = "/about"
+
+[[params.socials]]
+name = "Github"
+link = "https://github.com/stefins"
+
+[[params.socials]]
+name = "Twitter"
+link = "https://twitter.com/stef1ns" 

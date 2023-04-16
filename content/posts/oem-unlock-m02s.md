@@ -1,8 +1,8 @@
----
-layout: post
-title:  "OEM unlocking Galaxy M02s"
-date:   2022-02-16
----
++++
+title = "OEM unlocking Galaxy M02s"
+date = "2022-02-16"
+menu = "main"
++++
 
 Hii, In this post I'll show you how to OEM unlock your Galaxy M02s phone
 

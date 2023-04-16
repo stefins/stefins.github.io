@@ -1,8 +1,8 @@
----
-layout: post
-title:  "Running a tor middle relay"
-date:   2022-02-04
----
++++
+title = "Running a tor middle relay"
+date = "2022-02-04"
+menu = "main"
++++
 
 In this tutorial I will show you how to run a tor middle relay inside
 a VPS.
