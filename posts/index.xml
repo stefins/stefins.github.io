@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Stefin's Blog</title><link>https://stefins.github.io/posts/</link><description>Recent content in Posts on Stefin's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 25 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://stefins.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Prevent Mac from sleeping even with closed lid.</title><link>https://stefins.github.io/posts/prevent-mac-from-sleeping/</link><pubDate>Wed, 25 May 2022 00:00:00 +0000</pubDate><guid>https://stefins.github.io/posts/prevent-mac-from-sleeping/</guid><description>In this tutorial I&amp;rsquo;ll show you how to prevent your Mac from sleeping without using any external tools
+Open Terminal
+Type
+$ sudo pmset -a disablesleep 1 This will prevent the Mac from sleeping
+Now you can work with your Mac with closed lid. (I&amp;rsquo;m doing rn)
+To turn back sleeping just type
+$ sudo pmset -a disablesleep 0 Thanks :)</description></item><item><title>OEM unlocking Galaxy M02s</title><link>https://stefins.github.io/posts/oem-unlock-m02s/</link><pubDate>Wed, 16 Feb 2022 00:00:00 +0000</pubDate><guid>https://stefins.github.io/posts/oem-unlock-m02s/</guid><description>Hii, In this post I&amp;rsquo;ll show you how to OEM unlock your Galaxy M02s phone
+Enable Developer options by opening Settings &amp;gt; About phone &amp;gt; Software information &amp;gt; Build Number(tap 7 times).
+Enable OEM unlocking by Setting &amp;gt; Developer options &amp;gt; OEM unlocking(enable).
+Enable USB debugging by Setting &amp;gt; Developer options &amp;gt; USB debugging(enable).
+Power off and boot into Download mode(Odin mode) by Press Volume up and Volume down (same time) and connect a USB cable.</description></item><item><title>Running a tor middle relay</title><link>https://stefins.github.io/posts/run-a-tor-node/</link><pubDate>Fri, 04 Feb 2022 00:00:00 +0000</pubDate><guid>https://stefins.github.io/posts/run-a-tor-node/</guid><description>In this tutorial I will show you how to run a tor middle relay inside a VPS.
+Get a VPS from any service providers.
+Launch a Linux machine.
+Get tor from the default package manager
+# Ubuntu $ apt-get install tor # Arch $ pacman -S tor Or you can compile tor from source.
+Edit the /etc/tor/torrc file using $EDITOR.
+Add the following lines to that file.
+Nickname myNiceRelay # Change &amp;#34;myNiceRelay&amp;#34; to something you like ContactInfo mail@example.</description></item></channel></rss>
